@@ -7,6 +7,7 @@ export function Frameworks({
   innerIconSize = 25,
   className = "",
 }) {
+  // Duplicate art tools to fill the circles more densely
   const skills = [
     "Photoshop",
     "Krita",
@@ -14,16 +15,12 @@ export function Frameworks({
     "Blender",
     "Canva",
     "Figma",
-    "cplusplus",
-    "css3",
-    "git",
-    "html5",
-    "javascript",
-    "react",
-    "Laravel",
-    "tailwindcss",
-    "vitejs",
-    
+    "Photoshop",
+    "Krita",
+    "IbisPaint",
+    "Blender",
+    "Canva",
+    "Figma"
   ];
   return (
     <div className={`relative flex h-[15rem] w-full flex-col items-center justify-center ${className}`}>

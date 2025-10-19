@@ -21,7 +21,7 @@ const About = () => {
               <div className="z-10 p-6">
                 <p className="headtext [font-family:nebulax] text-shadow-2xs">Hi, I'm Hishirusai </p>
                 <p className="subtext [font-family:montlight] text-5xl font-medium text-neutral-100">
-                  I design and build front-end websites and art illustrations, two separate skills that give me both technical and artistic expression with the flexibility to merge them.
+                  I create beautiful digital illustrations and artistic designs, bringing imagination to life through visual storytelling.
                 </p>
               </div>
               <div className="absolute inset-x-0 pointer-evets-none -bottom-2 h-2/3 sm:h-2/3 bg-gradient-to-t from-black" />
@@ -33,9 +33,9 @@ const About = () => {
               {/*G2*/}
               <div className="grid-blue-color h-[15rem] relative overflow-hidden rounded-2xl p-6">
                 <div className="z-10 w-[50%]">
-                <p className="headtext [font-family:nebulax]">9PM TO 5AM (PHT/UTC+8)</p>
+                <p className="headtext [font-family:nebulax]">Creative Hours</p>
                 <p className="subtext">
-                I'm based in PH, and open to remote work worldwide
+                Art commissions currently unavailable
                 </p>
               </div>
               <figure className="absolute left-[30%] top-[10%]">
@@ -67,9 +67,9 @@ const About = () => {
                   />
                 </figure>
                 <div className="z-10 w-[50%] ml-auto text-right">
-                  <p className="headtext [font-family:nebulax]" >Stacks and Arts</p>
+                  <p className="headtext [font-family:nebulax]" >Art Tools</p>
                   <p className="subtext">
-                    I specialize in a variety of languages, frameworks, and also different art tools
+                    I specialize in various digital art tools and illustration techniques
                   </p>
                 </div>
               </div>
@@ -80,17 +80,20 @@ const About = () => {
             <div className="grid-black-color h-[20rem] relative overflow-hidden rounded-2xl p-6">
             
             <img
-            src="assets/coding-pov.png"
-            className="absolute z-0 scale-[1.75] -right-[5rem] -top-[6rem] md:scale-[1] md:left-80 md:-top-50 lg:scale-[1.25]"
+            src="assets/image.png"
+            className="absolute inset-0 w-full h-full object-cover z-0"
             />
+            
+            {/* 30% black transparent overlay */}
+            <div className="absolute inset-0 bg-black/30 z-0"></div>
 
             <div className="relative z-10">
             <p className="Biggertext [font-family:nebulax]">
-            THE ARTISTICALLY <br /> TECHNICAL DREAM
+            THE ARTISTICALLY <br /> CREATIVE VISION
             </p>
             <p className="subtext">
               I used to be the person who was drawn to artworks and <br />
-              website designs, never imagining I’d make them myself. <br />
+              creative designs, never imagining I'd create them myself. <br />
               Over time, that curiosity pulled me deeper. I started <br />
               learning and experimenting, and now, I'm creating the <br />
               very things I once admired. <br /> <br />
